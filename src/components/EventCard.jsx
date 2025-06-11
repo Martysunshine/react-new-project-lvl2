@@ -6,9 +6,11 @@ export default function EventCard({ title, date, description }) {
         alt="Event visual"
         className="event-image"
       />
-      <h3>{title}</h3>
-      <p className="event-date">{date}</p>
-      <p>{description}</p>
+      <div className="event-details">
+        <h3 className="event-title">{title}</h3>
+        <p className="event-date">{date}</p>
+        <p className="event-description">{description}</p>
+      </div>
     </article>
   );
 }
