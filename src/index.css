@@ -129,3 +129,13 @@ button:focus-visible {
   margin: 0 auto;
   text-align: center;
 }
+
+.nav {
+  display: flex;
+  gap: 1rem;
+}
+
+.profile {
+  padding: 2rem;
+  text-align: center;
+}
