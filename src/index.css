@@ -78,6 +78,13 @@ button:focus-visible {
   font-size: 1.5rem;
 }
 
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding: 1rem 2rem;
+}
+
 .hero {
   text-align: center;
   padding: 4rem 2rem;
