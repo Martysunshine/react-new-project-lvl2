@@ -122,3 +122,23 @@ button:focus-visible {
   margin: 0 auto;
   text-align: center;
 }
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+.profile-username {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
