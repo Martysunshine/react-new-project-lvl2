@@ -66,6 +66,7 @@ button:focus-visible {
 }
 
 /* Patagonio styles */
+/* Header that wraps the navigation */
 .header {
   display: flex;
   justify-content: space-between;
@@ -73,16 +74,25 @@ button:focus-visible {
   padding: 1rem 2rem;
 }
 
+/* Logo text */
 .logo {
   font-weight: 600;
   font-size: 1.5rem;
 }
 
+/* Container for navigation links */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
+}
+
+/* Flex wrapper for individual links */
+.nav {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
 }
 
 .hero {
@@ -166,12 +176,6 @@ button:focus-visible {
 .profile-username {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
-}
-
-.nav {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
 }
 
 .profile {
