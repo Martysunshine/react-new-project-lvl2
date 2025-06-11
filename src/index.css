@@ -74,18 +74,40 @@ button:focus-visible {
   padding: 1rem 2rem;
 }
 
+
 /* Logo text */
 .logo {
+
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.logo-text {
+
   font-weight: 600;
   font-size: 1.5rem;
 }
 
+
 /* Container for navigation links */
+
+
+
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: inherit;
 }
 
 /* Flex wrapper for individual links */
@@ -177,6 +199,23 @@ button:focus-visible {
   margin: 0 0 1rem 0;
   font-size: 1.5rem;
 }
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav a {
+  padding: 0.25rem 0.5rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
 
 .profile {
   padding: 2rem;
