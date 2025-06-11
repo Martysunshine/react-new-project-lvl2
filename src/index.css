@@ -73,16 +73,31 @@ button:focus-visible {
   padding: 1rem 2rem;
 }
 
-.logo {
+.logo-area {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-img {
+  height: 40px;
+}
+
+.logo-text {
   font-weight: 600;
   font-size: 1.5rem;
 }
 
+
 .navbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 0.75rem 1.5rem;
+  background-color: inherit;
 }
 
 .hero {
@@ -170,8 +185,16 @@ button:focus-visible {
 
 .nav {
   display: flex;
-  gap: 1rem;
   align-items: center;
+  gap: 1rem;
+}
+
+.nav a {
+  padding: 0.25rem 0.5rem;
+}
+
+.nav a:hover {
+  text-decoration: underline;
 }
 
 .profile {
