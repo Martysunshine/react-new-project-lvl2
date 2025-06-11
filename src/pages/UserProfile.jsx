@@ -1,23 +1,14 @@
-
-import Header from '../components/Header.jsx';
+import Navbar from '../components/Navbar.jsx';
+import React from 'react';
 
 export default function UserProfile() {
   return (
     <>
-      <Header />
+      <Navbar />
       <section className="profile">
         <h2>User Profile</h2>
         <p>Welcome to your profile page.</p>
       </section>
     </>
-
-import React from 'react';
-
-export default function UserProfile() {
-  return (
-    <div>
-      <h1>User Profile</h1>
-    </div>
-
   );
 }
