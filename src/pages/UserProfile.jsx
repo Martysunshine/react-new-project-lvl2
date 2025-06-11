@@ -1,3 +1,4 @@
+
 import Header from '../components/Header.jsx';
 
 export default function UserProfile() {
@@ -9,5 +10,14 @@ export default function UserProfile() {
         <p>Welcome to your profile page.</p>
       </section>
     </>
+
+import React from 'react';
+
+export default function UserProfile() {
+  return (
+    <div>
+      <h1>User Profile</h1>
+    </div>
+
   );
 }
