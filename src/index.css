@@ -80,8 +80,8 @@ button:focus-visible {
 
 .navbar {
   display: flex;
-  justify-content: flex-end;
-  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
 }
 
@@ -170,6 +170,7 @@ button:focus-visible {
 .nav {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .profile {
