@@ -1,4 +1,5 @@
 import Header from '../components/Header.jsx';
+import Navbar from '../components/Navbar.jsx';
 import HeroSection from '../components/HeroSection.jsx';
 import EventCard from '../components/EventCard.jsx';
 import AboutSection from '../components/AboutSection.jsx';
@@ -6,6 +7,7 @@ import AboutSection from '../components/AboutSection.jsx';
 export default function LandingPage() {
   return (
     <>
+      <Navbar />
       <Header />
       <HeroSection />
       <section className="events">
