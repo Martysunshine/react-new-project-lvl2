@@ -1,3 +1,4 @@
+
 export default function UserProfile() {
   return (
     <section className="profile-container">
@@ -10,5 +11,18 @@ export default function UserProfile() {
       <div className="joined-events">{/* Joined events will appear here */}</div>
       <div className="user-posts">{/* User posts will appear here */}</div>
     </section>
+
+import Header from '../components/Header.jsx';
+
+export default function UserProfile() {
+  return (
+    <>
+      <Header />
+      <section className="profile">
+        <h2>User Profile</h2>
+        <p>Welcome to your profile page.</p>
+      </section>
+    </>
+
   );
 }
