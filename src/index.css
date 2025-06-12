@@ -244,3 +244,27 @@ button:focus-visible {
   padding: 2rem;
   text-align: center;
 }
+
+.user-actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin: 2rem 0 3rem;
+}
+
+.secondary-btn {
+  padding: 0.65em 1.5em;
+  border: none;
+  border-radius: 7px;
+  background: #e4e7ec;
+  color: #213547;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.17s;
+}
+
+.secondary-btn:hover:enabled {
+  background: #d1d7e0;
+}

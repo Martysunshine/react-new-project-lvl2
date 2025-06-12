@@ -1,7 +1,8 @@
 import Navbar from '../components/Navbar.jsx';
 import HeroSection from '../components/HeroSection.jsx';
 import EventCard from '../components/EventCard.jsx';
-import AboutSection from '../components/AboutSection.jsx';
+import WhyPatagonio from '../components/WhyPatagonio.jsx';
+import { Link } from 'react-router-dom';
 
 export default function LandingPage() {
   return (
@@ -22,7 +23,15 @@ export default function LandingPage() {
           description="Join us for an unforgettable mountain adventure."
         />
       </section>
-      <AboutSection />
+      <WhyPatagonio />
+      <div className="user-actions">
+        <Link to="/about" className="secondary-btn">
+          About Us
+        </Link>
+        <button className="secondary-btn" disabled>
+          Contact & Feedback (coming soon)
+        </button>
+      </div>
     </>
   );
 }
