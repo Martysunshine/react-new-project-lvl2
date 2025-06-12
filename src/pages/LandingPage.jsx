@@ -8,13 +8,15 @@ export default function LandingPage() {
     <>
       <Navbar />
       <HeroSection />
-      <section className="events">
+            <section className="events">
         <EventCard
+          image="/event1.jpg"
           title="Coffee & Networking"
           date="June 14, 2025"
           description="Meet likeminded people in Prague over coffee."
         />
         <EventCard
+          image="/event2.jpg"
           title="Hiking in the Alps"
           date="July 3, 2025"
           description="Join us for an unforgettable mountain adventure."
