@@ -99,14 +99,20 @@ button:focus-visible {
 
 
 .navbar {
-  position: sticky;
-  top: 0;
-  z-index: 10;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.75rem 1.5rem;
-  background-color: inherit;
+  padding: 1.2rem 3rem 1.2rem 2rem;
+  background: rgba(30, 35, 42, 0.85); /* dark, semi-transparent */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  backdrop-filter: blur(8px); /* adds a nice blur effect behind the bar */
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  transition: background 0.22s, box-shadow 0.22s;
+  border-bottom: 1px solid rgba(255,255,255,0.07);
+
 }
 
 /* Flex wrapper for individual links */
