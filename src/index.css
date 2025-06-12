@@ -171,7 +171,7 @@ button:focus-visible {
   padding: 0.5em 1em;
   border-radius: 5px;
   background: var(--accent-color);
-  color: #fff;
+  color: #fff !important;
   font-size: 0.98rem;
   text-decoration: none;
   transition: background 0.18s;
